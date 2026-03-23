@@ -43,7 +43,7 @@ With initial community support hopefully established, the focus shifts to produc
 
 ---
 
-## Month 2: Evaluation & v2.0 Planning
+## Checkpoint 2: Evaluation & v2.0 Planning
 
 **Status: Check in around May 2026!**
 
@@ -60,7 +60,7 @@ A checkpoint to assess community traction and plan the next hardware revision.
 
 ---
 
-## Month 3: Board v2.0 Release (Supporters)
+## Checkpoint 3: Board v2.0 Release (Supporters)
 
 **Status: Check in around June 2026!**
 
@@ -79,7 +79,7 @@ Expand the platform beyond the original 4.26" display and demonstrate the full c
 
 ---
 
-## Month 4: v2.0 Release & Next Steps
+## Checkpoint 4: v2.0 Release & Next Steps
 
 **Status: Check in around July 2026!**
 
