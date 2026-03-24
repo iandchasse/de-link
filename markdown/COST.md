@@ -58,10 +58,10 @@ Unit prices from DigiKey/Mouser (single cut-tape). Estimates only, verify before
 
 | Item | Unit Price | Total (×5) | Notes |
 |------|----------:|----------:|-------|
-| PCB fabrication (bare, no PCBA) | ~$1.00 | ~$5.00 | JLCPCB 2-layer prototype, 5 boards for ~$5 shipped (price varies with board size; tariffs may apply) |
+| PCB fabrication (bare, no PCBA) | ~$3.00 | ~$15.00 | JLCPCB 2-layer prototype, 5 boards for ~$5 shipped (price varies with board size; tariffs may apply) |
 | GoodDisplay e-ink display | $25.00 | $125.00 | Assumed fixed price |
 | 650mAh 3.7V LiPo battery | $8.50 | $42.50 | Hobbyist single-unit pricing (e.g. Adafruit/SparkFun style); JST PH connector. **This can effectively be mitigated by salvaging a healthy re-chargable 3.7V battery.** |
-| **Additional Subtotal** | | **$172.50** | |
+| **Additional Subtotal** | | **$182.50** | |
 
 ---
 
