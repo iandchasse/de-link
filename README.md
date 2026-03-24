@@ -81,11 +81,7 @@ See [Philosophy](markdown/PHILOSOPHY.md) for the full story.
 
 ## How much does it cost?
 
-See [cost breakdown](markdown/COST.md) for the rough BOM and a full picture of how much a unit should cost. TLDR: About $60ish before shipping, maybe a bit more if you pay for PCBA. But I implore you to try and build it yourself. All components are hand-solderable for most with basic soldering materials, save for the pesky ribbon cables which interface to the display.
-
-- **PCB Design** - See the KiCad files at my repo [here](https://github.com/iandchasse/de-link-pcb), I will provide 1.0 production files later. See Roadmap below.
-- **Firmware** - Check out my fork of [crosspoint-reader](https://github.com/iandchasse/crosspoint-reader-de-link/tree/s3-port) for e-reader software built on de-link, as well as the "sdk" that has display code for the 4.26" display as well as the buttons/sd card [here](https://github.com/iandchasse/community-sdk-de-link/tree/s3-port)
-- **3D Enclosures** - Coming soon, access first by supporting
+See [cost breakdown](markdown/COST.md) for the rough BOM and a full picture of how much a unit should cost. **TLDR: About $60ish before shipping, maybe a bit more if you pay for PCBA**. But I implore you to try and build it yourself. All components are hand-solderable for most with basic soldering materials, save for the pesky ribbon cables which interface to the display.
 
 ---
 ## What's the battery life?
