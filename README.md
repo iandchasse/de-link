@@ -56,7 +56,7 @@ The enclosure is fully customizable and 3D-printable. Most PCB components are ha
 
 <div style="text-align: center;">
   <img src="images/warm_light.jpg" width="400" alt="Frontlight Module">
-  <p><em>Optional frontlight module with cool/warm tuning</em></p>
+  <p><em>Optional frontlight module with cool/warm tuning. **THIS IS THE FIRST UNIT I BUILT, THE ONES ABOVE ARE NEWER.**</em></p>
 </div>
 
 ---
@@ -79,11 +79,27 @@ See [Philosophy](markdown/PHILOSOPHY.md) for the full story.
 
 ---
 
-## Learn More
+## How much does it cost?
 
+See [cost breakdown](markdown/COST.md) for the rough BOM and a full picture of how much a unit should cost. TLDR: About $60ish before shipping, maybe a bit more if you pay for PCBA. But I implore you to try and build it yourself. All components are hand-solderable for most with basic soldering materials, save for the pesky ribbon cables which interface to the display.
+
+- **PCB Design** - See the KiCad files at my repo [here](https://github.com/iandchasse/de-link-pcb), I will provide 1.0 production files later. See Roadmap below.
+- **Firmware** - Check out my fork of [crosspoint-reader](https://github.com/iandchasse/crosspoint-reader-de-link/tree/s3-port) for e-reader software built on de-link, as well as the "sdk" that has display code for the 4.26" display as well as the buttons/sd card [here](https://github.com/iandchasse/community-sdk-de-link/tree/s3-port)
+- **3D Enclosures** - Coming soon, access first by supporting
+
+---
+## What's the battery life?
+
+It will depend on the software and the battery that's used. Both are up to you. However if using with [crosspoint-reader](https://github.com/iandchasse/crosspoint-reader-de-link/tree/s3-port) and reading for ~30 minutes a day with a 650mAh battery, it should last for weeks. I don't really know. See my current-draw measurements [here](markdown/PROTO.md).
+
+---
+
+## Learn More
+- **[Cost](markdown/COST.md)** - Price breakdown of component + unit cost.
 - **[Philosophy](markdown/PHILOSOPHY.md)** - Design principles and why this project exists
 - **[Comparison](markdown/COMPARISON.md)** - How de-link compares to XTEink and M5Paper
 - **[Roadmap](markdown/ROADMAP.md)** - Development phases and upcoming releases
+- **[Prototyping](markdown/PROTO.md)** - See what I've played around with so far.
 
 **Community:**
 - [Discord](https://discord.gg/zCnKFt4Y4P)
