@@ -26,7 +26,7 @@ The initial prototype is functional and the immediate priority is building a com
 
 ## Checkpoint 1: Board v1.0 Release (Supporters)
 
-**Status: Check in around April 2026!**
+**Status: Check in around June 2026!**
 
 With initial community support hopefully established, the focus shifts to producing a refined v1.0 board design suitable for beta testers interested in the initial prototype.
 
@@ -45,7 +45,7 @@ With initial community support hopefully established, the focus shifts to produc
 
 ## Checkpoint 2: Evaluation & v2.0 Planning
 
-**Status: Check in around May 2026!**
+**Status: Check in around August 2026!**
 
 A checkpoint to assess community traction and plan the next hardware revision.
 
@@ -62,7 +62,7 @@ A checkpoint to assess community traction and plan the next hardware revision.
 
 ## Checkpoint 3: Board v2.0 Release (Supporters)
 
-**Status: Check in around June 2026!**
+**Status: Check in around September 2026!**
 
 Expand the platform beyond the original 4.26" display and demonstrate the full capability of the optional module system.
 
@@ -81,13 +81,13 @@ Expand the platform beyond the original 4.26" display and demonstrate the full c
 
 ## Checkpoint 4: v2.0 Release & Next Steps
 
-**Status: Check in around July 2026!**
+**Status: Check in around December 2026!**
 
 Transition the project from a community effort toward a sustainable product path.
 
-- Release v2.0 board design and associated resources to supporters
+- Release v2.0 board design and associated resources to all
 - Establish an LLC for the project
-- Evaluate and potentially launch a crowdfunding campaign for small production run
+- Evaluate and potentially launch a crowdfunding campaign for small production run for cohesive development kit (screen, battery, assembled board, case)
 - Continue expanding display compatibility and enclosure options
 
 **Goal:** Put the groundwork in place for production.
