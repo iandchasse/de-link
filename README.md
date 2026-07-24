@@ -1,3 +1,4 @@
+## 07/24/26 THIS REPO IS MOSTLY OUTDATED INFORMATION, WILL BE UPDATED LATER. PLEASE GO TO https://de-link.me FOR MORE UP TO DATE INFO!!!! THANK YOU!!!
 # de-link
 
 <div style="text-align: center;">
