@@ -1,104 +1,106 @@
-## 07/24/26 THIS REPO IS MOSTLY OUTDATED INFORMATION, WILL BE UPDATED LATER. PLEASE GO TO https://de-link.me FOR MORE UP TO DATE INFO!!!! THANK YOU!!!
-# de-link
+<!--
+  Before committing: make sure the two images are in this repo's images/ folder as
+  images/homepage.png and images/pip-pcb-render.png  (site URL is already set to https://de-link.me).
+-->
 
-<div style="text-align: center;">
-  <img src="images/logorender.PNG" width="500" alt="de-link">
-</div>
+<p align="center">
+  <a href="https://de-link.me">
+    <img src="images/homepage.png" alt="de-link — open source microreader and development kit" width="820">
+  </a>
+</p>
 
-An open-source ESP32-S3 e-paper development kit. Offers hardware access to 24-pin e-paper communication over SPI, 4-bit SDMMC, USB-C, button array, and optional modules for series LED driver and battery overcharge/discharge protection.
+<h1 align="center">de-link</h1>
 
----
+<p align="center">
+  <b>open source microreader &amp; development kit</b><br>
+  ESP32-S3 · any 24-pin e-paper panel · fully repairable · yours to modify
+</p>
 
-## The PCB
-
-The heart of de-link. Designed to work with any GoodDisplay 24-pin SPI e-paper display.
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center;">
-  <img src="images/pcb_render.png" width="300" alt="PCB Front">
-  <img src="images/pcb_render_back.png" width="260" alt="PCB Back">
-</div>
-
-**Specifications:**
-- **MCU:** ESP32-S3 (240 MHz dual-core, 512 KB SRAM, PSRAM (buy whichever you want), 16MB Flash)
-- **Display Interface:** 24-pin SPI e-paper (supports 3.97", 4.26", 7.5", and more)
-- **Storage:** 4-bit SDMMC microSD interface
-- **Power:**  LiPo battery with overcharge/discharge protection (bring your own battery)
-- **Connectivity:** Wi-Fi 802.11b/g/n, Bluetooth LE, USB-C with OTG
-- **Input:** Dual 4-switch resistor ladders, multi-function GPIO, reset button
-- **Optional Modules:** Series LED driver for frontlight (cool/warm control), battery protection circuit for salvaged single-cell lithium batteries
+<p align="center">
+  <a href="https://de-link.me"><img src="https://img.shields.io/badge/website-de--link-1053a4?style=for-the-badge" alt="Website"></a>
+  <a href="https://discord.gg/zCnKFt4Y4P"><img src="https://img.shields.io/badge/discord-join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://www.patreon.com/iandchasse"><img src="https://img.shields.io/badge/patreon-support-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
+  <a href="https://ko-fi.com/iandchasse"><img src="https://img.shields.io/badge/ko--fi-support-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
+</p>
 
 ---
 
-## My Prototype
-
-This is my first working prototype built around a 4.26" GoodDisplay panel in a 3D-printed enclosure. It's functional and something I use every day, but it's just the starting point. The design is open so you can build your own with any compatible display size. For more info on that, check [out things I've been trying.](markdown/PROTO.md)
-
-<div style="text-align: center;">
-  <img src="images/caserender.png" width="450" alt="4.26 inch Prototype Case and Screen">
-  <p><em>Initial prototype: 4.26" display with 3D-printed case</em></p>
-</div>
-
-The enclosure is fully customizable and 3D-printable. Most PCB components are hand-solderable (0805/SOT-23). When something fails, you replace it. The screen is removable. You can reprint the case as many times as you need.
-
----
-
-## Hardware in Action
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
-  <div>
-    <img src="images/protos_with_cases.jpg" width="300" alt="Prototypes">
-    <p style="text-align: center;"><em>My current prototypes (mine and my gf's)</em></p>
-  </div>
-  <div>
-    <img src="images/out_and_about.jpg" width="300" alt="In Use">
-    <p style="text-align: center;"><em>Out and about</em></p>
-  </div>
-</div>
-
-<div style="text-align: center;">
-  <img src="images/warm_light.jpg" width="400" alt="Frontlight Module">
-  <p><em>Optional frontlight module with cool/warm tuning. **THIS IS THE FIRST UNIT I BUILT, THE ONES ABOVE ARE NEWER.**</em></p>
-</div>
+> ## ✅ de-link is alive and in active development.
+>
+> This repository is the **original project hub** — it's preserved here (history, images,
+> schematics, and notes all intact), but the **full, up-to-date information now lives on the website.**
+>
+> ### 👉 **[Visit the de-link website to learn more →](https://de-link.me)**
+>
+> You'll find the current specs, an interactive bill of materials, a rotatable 3D model,
+> the `pre` and `pip` editions, and how to build your own.
 
 ---
 
-## Why This Exists
+## 📸 The project today
 
-My Kindle's frontlight broke. I wanted an e-reader I could actually control and repair. So I designed a PCB, built a case, and got it working. Now I'm sharing it because I believe open hardware leads to better hardware.
+<p align="center">
+  <img src="images/homepage.png" alt="de-link website homepage" width="720"><br>
+  <em>The de-link homepage — <a href="https://de-link.me">de-link.me</a></em>
+</p>
 
-See [Philosophy](markdown/PHILOSOPHY.md) for the full story.
+<p align="center">
+  <img src="images/pip-pcb-render.png" alt="de-link pip PCB render" width="720"><br>
+  <em>de-link <b>pip</b> (v1.0) — PCB design nearly final</em>
+</p>
 
-**This project needs community support to grow.** Without contributors, testers, and feedback, this remains a single prototype on my desk. The roadmap, timeline, and future direction all depend on community engagement. If you're interested in e-paper, open hardware, or just building cool things, join in.
+## 📍 Status at a glance
 
----
+- ✅ **`pre`** — the first prototype: built, validated, and documented (warts and all).
+- 🔷 **`pip` (v1.0)** — PCB design **nearly final**: smaller footprint, thinner profile, lower BOM cost.
+- 🖥️ Runs **[Crosspoint Reader](https://crosspointreader.com)** firmware, flashable over USB-C — no locked bootloaders, no bricks.
+- 🧰 Fully **3D-printable** case · **0805 / SOT-23** hand-solderable parts · fully **open BOM**.
+- 🔦 Optional **frontlight** (software cool/warm) and **battery-protection** modules.
+- 📦 Production files — **KiCad, gerbers, CPL, STL, firmware** — release publicly at launch.
+- 🤝 Built in open collaboration with **[freeink.org](https://freeink.org)**.
 
-## Hardware and Software
+> ℹ️ Some figures in this repo's older notes are out of date (for example, an early
+> ~$60 cost estimate). The **live bill of materials on the website** is the source of truth.
 
-- **PCB Design** - See the KiCad files at my repo [here](https://github.com/iandchasse/de-link-pcb), I will provide 1.0 production files later. See Roadmap below.
-- **Firmware** - Check out my fork of [crosspoint-reader](https://github.com/iandchasse/crosspoint-reader-de-link/tree/s3-port) for e-reader software built on de-link, as well as the "sdk" that has display code for the 4.26" display as well as the buttons/sd card [here](https://github.com/iandchasse/community-sdk-de-link/tree/s3-port)
-- **3D Enclosures** - Coming soon, access first by supporting
+## 🛠️ Hardware at a glance
 
----
+| | |
+|---|---|
+| **Screen** | any 24-pin GoodDisplay SPI e-paper panel — 3.97", 4.26", 7.5" and more. swap without touching the PCB. |
+| **Case** | fully 3D-printable. reprint or redesign freely — no molds, no minimums. |
+| **Repair** | 0805 & SOT-23 throughout, hand-solderable. open BOM — replace the part that broke. |
+| **Battery** | bring your own single-cell 3.7V LiPo with a JST 2.0 connector. |
+| **Compute** | ESP32-S3 with USB-C OTG and no firmware restrictions. |
+| **Storage** | 4-bit SDMMC microSD — faster than the 1-bit SPI most comparable devices use. |
 
-## How much does it cost?
+## 🗂️ The de-link project on GitHub
 
-See [cost breakdown](markdown/COST.md) for the rough BOM and a full picture of how much a unit should cost. **TLDR: About $60ish before shipping, maybe a bit more if you pay for PCBA**. But I implore you to try and build it yourself. All components are hand-solderable for most with basic soldering materials, save for the pesky ribbon cables which interface to the display.
+The project is split into focused repositories. This hub points you to the right one:
 
----
-## What's the battery life?
+| Repository | What it is |
+|---|---|
+| 🌐 **[de-link-site](https://github.com/iandchasse/de-link-site)** | The website — **now the main information hub. Start here.** |
+| 🔧 **[de-link-pcb](https://github.com/iandchasse/de-link-pcb)** | Hardware / PCB design files. |
+| 💾 **[crosspoint-reader-de-link](https://github.com/iandchasse/crosspoint-reader-de-link)** | Reader firmware — Crosspoint Reader ported to the de-link platform. |
+| 📚 **[freeink-sdk](https://github.com/iandchasse/freeink-sdk)** | Hardware-independent SDK for e-paper reader firmware (fork of [Free-Ink/freeink-sdk](https://github.com/Free-Ink/freeink-sdk)). |
+| 🧩 **[community-sdk-de-link](https://github.com/iandchasse/community-sdk-de-link)** | Community SDK for de-link. |
+| 🧭 **de-link** *(you are here)* | The original hub — kept for history and as an index to the above. |
 
-It will depend on the software and the battery that's used. Both are up to you. However if using with [crosspoint-reader](https://github.com/iandchasse/crosspoint-reader-de-link/tree/s3-port) and reading for ~30 minutes a day with a 650mAh battery, it should last for weeks. I don't really know. See my current-draw measurements [here](markdown/PROTO.md).
+## 💬 Community &amp; support
 
----
+- **Discord** — [join the community](https://discord.gg/zCnKFt4Y4P)
+- **Patreon** — [support development](https://www.patreon.com/iandchasse)
+- **Ko-fi** — [buy a coffee](https://ko-fi.com/iandchasse)
+- **Mailing list** — sign up on the [website](https://de-link.me) for hardware release news
 
-## Learn More
-- **[Cost](markdown/COST.md)** - Price breakdown of component + unit cost.
-- **[Philosophy](markdown/PHILOSOPHY.md)** - Design principles and why this project exists
-- **[Comparison](markdown/COMPARISON.md)** - How de-link compares to XTEink and M5Paper
-- **[Roadmap](markdown/ROADMAP.md)** - Development phases and upcoming releases
-- **[Prototyping](markdown/PROTO.md)** - See what I've played around with so far.
+## 📄 About this repository
 
-**Community:**
-- [Discord](https://discord.gg/zCnKFt4Y4P)
-- [Patreon](https://www.patreon.com/cw/iandchasse)
-- [Ko-Fi](https://ko-fi.com/iandchasse)
+This repo is preserved as part of de-link's history. The original deep-dive notes,
+schematics, and images remain in place (`markdown/`, `schematic/`, `images/`, `logos/`)
+for anyone who wants them. For anything current — specs, BOM, build info — the
+**[website](https://de-link.me)** is authoritative.
+
+<p align="center">
+  ⭐ <b>461 stars and counting</b> — thank you. Now come see where it's headed:<br>
+  <a href="https://de-link.me"><b>de-link.me →</b></a>
+</p>
